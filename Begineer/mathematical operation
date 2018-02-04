@@ -1,0 +1,6 @@
+sum=int(a)+int(b)
+print('the sum of {0} and {1} is {2}'.format(a,b,sum))
+product=int(a)*int(b)
+print('the product of {0} and {1} is {2}'.format(a,b,product))
+division=int(a)/int(b)
+print('the division value of {0} and {1} is {2}'.format(a,b,division))
