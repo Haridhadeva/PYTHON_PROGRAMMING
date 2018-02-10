@@ -1,10 +1,10 @@
-while True:
-    a=int(input("enter a value"))
-    b=int(input("enter  b value"))
-    c=int(input("enter c value"))
-    if a>>b>>c:
-        print("a is bigger")
-    elif b>>a>>c:
-        print("b is bigger")
-    else:
-        print("c is bigger")
+num1 = 10
+num2 = 14
+num3 = 12
+if (num1 >= num2) and (num1 >= num3):
+   largest = num1
+elif (num2 >= num1) and (num2 >= num3):
+   largest = num2
+else:
+   largest = num3
+print"The largest number between",num1,",",num2,"and",num3,"is",largest
