@@ -1,9 +1,9 @@
-n=int(input("Enter the number:"))
-if(n<1 or (n%1)!=0):
+a=int(input("Enter the number:"))
+if(a<1 or (a%1)!=0):
     print("wrong input")
 else:
     temp=0
-    while(n!=0):
-        temp=temp+n
-        n=n-1
+    while(a!=0):
+        temp=temp+a
+        a=a-1
     print (temp)
