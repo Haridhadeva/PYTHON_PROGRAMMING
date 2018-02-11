@@ -1,3 +1,4 @@
 while True:
-    i="helloworld"
-    print("i")
+    a=int(input("Enter a number: "))
+    for a in range(0,a,1):
+         print("hii")
