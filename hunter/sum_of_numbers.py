@@ -1,3 +1,3 @@
-n=int(input("enter a number: "))
-print(n*(n+1)/2)
+N=int(input("Enter a number: "))
+print(N*(N+1)/2)
 
