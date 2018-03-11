@@ -1,3 +1,2 @@
-a=raw_input("Enter any number : ")
-l=(len(a))
-print("Number of digits in integer is:  %d"%l)
+number=int(input("Enter any number : "))
+print("total digits is ",len(str(number)))
